@@ -19,7 +19,7 @@ def generarCUIT(dni):
     else: 
         z = 11 - rest
     return "%s-%s-%i" % (xy,dni,z) #retorna cuit
-    #
+    
 
 if __name__ == "__main__":
      print generarCUIT(int(sys.argv[1]))
